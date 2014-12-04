@@ -18,7 +18,7 @@ public class Kirby {
 //<editor-fold defaultstate="collapsed" desc="Methods">
     public void draw(Graphics graphics) {
         //write the code to draw a kirby!!!
-        graphics.setColor(Color.BLACK);
+        graphics.setColor(Color.BLUE);
         graphics.fillOval(position.x, position.y, 3, 3);
         graphics.fillOval(position.x, position.y + height, 3, 3);
         graphics.fillOval(position.x + width, position.y, 3, 3);
